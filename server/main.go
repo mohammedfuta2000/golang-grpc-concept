@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net"
 
@@ -13,9 +12,8 @@ const (
 	port = ":8080"
 )
 
-type helloServer struct{
+type helloServer struct {
 	pb.GreetServiceServer
-
 }
 
 func main()  {
